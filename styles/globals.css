@@ -11,13 +11,32 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-  --main-bg-color: #1E1E1E;
-  --red: #F75047;
-  --white: #fff;
+p {
+  margin: 0;
+  padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+  font-family: Oswald, sans-serif;
+  --black: #1E1E1E;
+  --dark: #000;
+  --red: #F75047;
+  --red-darken: #e04941;
+  --white: #fff;
+  --yellow: #E2B000;
+  --yellow-darken: #d9a901;
+}
+
+button, input[type="submit"], input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -25,7 +44,7 @@ a {
   }
 
   body {
-    color: white;
-    background: var(--main-bg-color);
+    color: var(--white);
+    background: var(--black);
   }
 }

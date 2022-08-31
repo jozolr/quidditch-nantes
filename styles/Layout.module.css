@@ -8,12 +8,40 @@
   align-items: center;
   padding: 0.5rem 1rem;
 
-  background-color: var(--main-bg-color);
+  background-color: var(--black);
 
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: var(--menu-height);
 
   z-index: 1;
+}
+
+.button {
+  background-color: var(--red);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.button:hover {
+  background-color: var(--red-darken);
+}
+
+.button_secondary {
+  background-color: var(--yellow);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.button_secondary:hover {
+  background-color: var(--yellow-darken);
 }
