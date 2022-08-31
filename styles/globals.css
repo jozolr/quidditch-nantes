@@ -14,6 +14,8 @@ a {
 * {
   box-sizing: border-box;
   --main-bg-color: #1E1E1E;
+  --red: #F75047;
+  --white: #fff;
 }
 
 

@@ -1,33 +1,38 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import homeStyles from '../styles/Home.module.css'
+import layoutStyles from '../styles/Layout.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className={ styles.container }>
+    <div className={ homeStyles.container }>
       <Head>
         <title>Quidditch Nantes</title>
         <meta name="description" content="Le site du club de quidditch de nantes"/>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
 
-      <main className={ styles.main }>
-        <div className={ styles.home }>
-          <div className={ styles.home__header }>
-            <div className={styles.home__header__left}>
-              <img className={styles.home__header__left__image} src={'/images/home_header_left.jpg'} />
-              <img className={styles.home__header__left__logo} src={'/images/logo.png'} />
-            </div>
-            <div className={styles.home__header__right}>
-              PLOP
-
-            </div>
+      <main className={layoutStyles.main}>
+        <div className={layoutStyles.main__menu}>
+          <a href="">Accueil</a>
+          <a href="">PLOP</a>
+          <a href="">PLOP</a>
+          <a href="">PLOP</a>
+          <a href="">PLOP</a>
+        </div>
+        <div className={ homeStyles.home }>
+          <div className={ homeStyles.home__header }>
+            <img className={ homeStyles.home__header__image } src={ '/images/background_header.jpg' }/>
+            <img className={ homeStyles.home__header__logo } src={ '/images/logo.png' }/>
+          </div>
+          <div>
+            <h1 className={ homeStyles.home__title }>Quidditch Nantes</h1>
           </div>
         </div>
 
       </main>
 
-      <footer className={ styles.footer }>
+      <footer className={ homeStyles.footer }>
       </footer>
     </div>
   )

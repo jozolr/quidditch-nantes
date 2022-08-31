@@ -1,0 +1,19 @@
+.main {
+  --menu-height: 80px;
+}
+
+.main__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+
+  background-color: var(--main-bg-color);
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: var(--menu-height);
+
+  z-index: 1;
+}
