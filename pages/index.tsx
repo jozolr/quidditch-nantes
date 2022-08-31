@@ -48,10 +48,10 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className={homeStyles.home__mixte}>
-            <h2>
+            <h2 className={homeStyles.home__mixte_h2}>
               Le seul sport collectif et de contact obligatoirement mixte
             </h2>
-            <p>
+            <p className={homeStyles.home__mixte_p}>
               Savant mélange de rugby, de handball et de dodgeball, le quidditch a bien évolué depuis sa version fictive créée en 2005.
               C’est un sport à part entière pratiqué dans plus de 40 pays à travers le monde.
               Venez découvrir la 1ère équipe créée de quidditch française : les Éléphants de Nantes !
