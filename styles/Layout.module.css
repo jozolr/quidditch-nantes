@@ -45,3 +45,13 @@
 .button_secondary:hover {
   background-color: var(--yellow-darken);
 }
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--red);
+}
+
+.panel {
+  margin-bottom: 40px;
+}
